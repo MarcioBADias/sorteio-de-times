@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorteio de times</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./js/app.js" defer></script>
+</head>
+<body>
+    <div class="times container">
+        <form class="form-cadastro">
+            <div class="times-input-search input-area">
+                <input type="search"  placeholder="Pesquisar time cadastrado">
+            </div>
+            <div class="times-cadastrados input-area">
+                <ul>
+                    <span class="span-text">
+                        Espaço dos times cadastrados
+                    </span>
+                </ul>
+                </div>
+            <div class="times-input-cadastro input-area">
+                <div>
+                    <input type="text" placeholder="Cadastre sua equipe" name="inputCadastro" autofocus/>
+                </div>
+                <div>
+                    <button type="submit" class="btnAddTodo">Adicionar <i class="fas fa-plus-circle"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="pareamento container">
+        <form class="form-pareamento">
+            <div class="pareamento-area input-area">
+                <div class="pareamento-input-search input-area">
+                    <input type="search"  placeholder="Pesquise partida">
+                </div>
+                <div class="result">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div>
+                    <input type="submit"  value="Sortear jogos" class="botão">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
